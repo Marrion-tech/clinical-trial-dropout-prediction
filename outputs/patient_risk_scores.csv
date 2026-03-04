@@ -1,0 +1,331 @@
+patient_index,dropout_risk_%,actual_outcome,risk_level
+303,100.0,Dropped Out,🔴 High
+30,100.0,Dropped Out,🔴 High
+292,100.0,Dropped Out,🔴 High
+21,100.0,Dropped Out,🔴 High
+19,100.0,Dropped Out,🔴 High
+285,100.0,Dropped Out,🔴 High
+286,100.0,Dropped Out,🔴 High
+39,100.0,Dropped Out,🔴 High
+275,100.0,Dropped Out,🔴 High
+171,100.0,Dropped Out,🔴 High
+72,100.0,Dropped Out,🔴 High
+205,100.0,Dropped Out,🔴 High
+197,100.0,Dropped Out,🔴 High
+195,100.0,Dropped Out,🔴 High
+193,100.0,Dropped Out,🔴 High
+187,100.0,Dropped Out,🔴 High
+217,100.0,Dropped Out,🔴 High
+52,100.0,Dropped Out,🔴 High
+214,100.0,Dropped Out,🔴 High
+59,100.0,Dropped Out,🔴 High
+227,100.0,Dropped Out,🔴 High
+233,100.0,Dropped Out,🔴 High
+228,100.0,Dropped Out,🔴 High
+237,100.0,Dropped Out,🔴 High
+241,100.0,Dropped Out,🔴 High
+242,100.0,Dropped Out,🔴 High
+249,100.0,Dropped Out,🔴 High
+319,100.0,Dropped Out,🔴 High
+14,100.0,Dropped Out,🔴 High
+9,100.0,Dropped Out,🔴 High
+7,100.0,Dropped Out,🔴 High
+99,100.0,Dropped Out,🔴 High
+311,100.0,Dropped Out,🔴 High
+101,100.0,Dropped Out,🔴 High
+306,100.0,Dropped Out,🔴 High
+2,100.0,Dropped Out,🔴 High
+97,100.0,Dropped Out,🔴 High
+130,100.0,Dropped Out,🔴 High
+136,100.0,Dropped Out,🔴 High
+144,100.0,Dropped Out,🔴 High
+141,100.0,Dropped Out,🔴 High
+160,100.0,Dropped Out,🔴 High
+161,100.0,Dropped Out,🔴 High
+184,100.0,Dropped Out,🔴 High
+192,100.0,Dropped Out,🔴 High
+179,100.0,Dropped Out,🔴 High
+178,100.0,Dropped Out,🔴 High
+186,100.0,Dropped Out,🔴 High
+28,99.9,Dropped Out,🔴 High
+297,99.9,Dropped Out,🔴 High
+253,99.9,Dropped Out,🔴 High
+273,99.9,Dropped Out,🔴 High
+49,99.9,Dropped Out,🔴 High
+261,99.9,Dropped Out,🔴 High
+262,99.9,Dropped Out,🔴 High
+25,99.9,Dropped Out,🔴 High
+27,99.9,Dropped Out,🔴 High
+256,99.9,Dropped Out,🔴 High
+43,99.9,Dropped Out,🔴 High
+159,99.9,Dropped Out,🔴 High
+133,99.9,Dropped Out,🔴 High
+84,99.9,Dropped Out,🔴 High
+112,99.9,Dropped Out,🔴 High
+88,99.9,Dropped Out,🔴 High
+44,99.9,Dropped Out,🔴 High
+48,99.9,Dropped Out,🔴 High
+163,99.9,Dropped Out,🔴 High
+247,99.9,Dropped Out,🔴 High
+10,99.9,Dropped Out,🔴 High
+320,99.9,Dropped Out,🔴 High
+190,99.9,Dropped Out,🔴 High
+207,99.9,Dropped Out,🔴 High
+176,99.9,Dropped Out,🔴 High
+325,99.8,Dropped Out,🔴 High
+284,99.8,Dropped Out,🔴 High
+226,99.8,Dropped Out,🔴 High
+257,99.8,Dropped Out,🔴 High
+279,99.8,Dropped Out,🔴 High
+308,99.8,Dropped Out,🔴 High
+102,99.8,Dropped Out,🔴 High
+316,99.8,Dropped Out,🔴 High
+173,99.8,Dropped Out,🔴 High
+323,99.7,Dropped Out,🔴 High
+219,99.7,Dropped Out,🔴 High
+56,99.7,Dropped Out,🔴 High
+216,99.7,Dropped Out,🔴 High
+146,99.7,Dropped Out,🔴 High
+128,99.7,Dropped Out,🔴 High
+83,99.7,Dropped Out,🔴 High
+4,99.7,Dropped Out,🔴 High
+3,99.7,Dropped Out,🔴 High
+119,99.6,Dropped Out,🔴 High
+150,99.6,Dropped Out,🔴 High
+198,99.6,Dropped Out,🔴 High
+90,99.5,Dropped Out,🔴 High
+310,99.5,Dropped Out,🔴 High
+246,99.5,Dropped Out,🔴 High
+98,99.5,Dropped Out,🔴 High
+260,99.5,Dropped Out,🔴 High
+282,99.5,Dropped Out,🔴 High
+38,99.4,Dropped Out,🔴 High
+294,99.4,Dropped Out,🔴 High
+105,99.4,Dropped Out,🔴 High
+79,99.3,Dropped Out,🔴 High
+89,99.1,Dropped Out,🔴 High
+115,99.1,Dropped Out,🔴 High
+158,99.1,Dropped Out,🔴 High
+106,99.0,Dropped Out,🔴 High
+329,98.6,Dropped Out,🔴 High
+276,98.6,Stayed,🔴 High
+181,98.5,Dropped Out,🔴 High
+74,98.4,Dropped Out,🔴 High
+151,98.1,Dropped Out,🔴 High
+183,98.0,Dropped Out,🔴 High
+135,98.0,Dropped Out,🔴 High
+78,97.8,Dropped Out,🔴 High
+155,97.5,Dropped Out,🔴 High
+77,97.5,Dropped Out,🔴 High
+46,97.0,Dropped Out,🔴 High
+327,97.0,Dropped Out,🔴 High
+54,96.8,Dropped Out,🔴 High
+196,96.5,Dropped Out,🔴 High
+314,96.1,Dropped Out,🔴 High
+174,96.0,Dropped Out,🔴 High
+299,95.6,Dropped Out,🔴 High
+35,95.0,Dropped Out,🔴 High
+162,95.0,Dropped Out,🔴 High
+47,94.4,Dropped Out,🔴 High
+250,94.1,Dropped Out,🔴 High
+317,93.7,Dropped Out,🔴 High
+231,93.3,Dropped Out,🔴 High
+230,93.3,Dropped Out,🔴 High
+85,93.2,Dropped Out,🔴 High
+107,92.8,Dropped Out,🔴 High
+182,92.2,Dropped Out,🔴 High
+29,91.6,Stayed,🔴 High
+309,91.1,Dropped Out,🔴 High
+164,90.5,Dropped Out,🔴 High
+265,90.2,Dropped Out,🔴 High
+82,88.3,Stayed,🔴 High
+243,87.8,Dropped Out,🔴 High
+108,87.8,Dropped Out,🔴 High
+68,87.1,Dropped Out,🔴 High
+224,85.9,Dropped Out,🔴 High
+69,85.2,Dropped Out,🔴 High
+75,81.4,Dropped Out,🔴 High
+23,78.7,Stayed,🔴 High
+326,78.4,Dropped Out,🔴 High
+17,78.2,Dropped Out,🔴 High
+53,77.8,Dropped Out,🔴 High
+191,74.9,Stayed,🔴 High
+280,73.5,Dropped Out,🔴 High
+8,72.6,Dropped Out,🔴 High
+305,71.2,Dropped Out,🔴 High
+139,69.2,Dropped Out,🔴 High
+110,68.6,Stayed,🔴 High
+132,68.0,Stayed,🔴 High
+157,66.5,Dropped Out,🔴 High
+180,63.4,Stayed,🟡 Medium
+170,62.4,Dropped Out,🟡 Medium
+116,59.8,Dropped Out,🟡 Medium
+315,57.7,Stayed,🟡 Medium
+103,56.8,Dropped Out,🟡 Medium
+234,52.1,Dropped Out,🟡 Medium
+123,44.9,Dropped Out,🟡 Medium
+58,44.3,Stayed,🟡 Medium
+277,41.8,Stayed,🟡 Medium
+31,39.5,Stayed,🟡 Medium
+111,35.8,Dropped Out,🟡 Medium
+16,31.5,Dropped Out,🟢 Low
+6,30.9,Stayed,🟢 Low
+318,30.3,Stayed,🟢 Low
+140,27.0,Dropped Out,🟢 Low
+307,26.3,Stayed,🟢 Low
+290,26.3,Dropped Out,🟢 Low
+42,25.4,Stayed,🟢 Low
+210,21.6,Dropped Out,🟢 Low
+266,20.6,Dropped Out,🟢 Low
+34,13.9,Stayed,🟢 Low
+120,12.3,Stayed,🟢 Low
+152,11.8,Stayed,🟢 Low
+109,11.8,Stayed,🟢 Low
+188,11.0,Stayed,🟢 Low
+55,10.5,Stayed,🟢 Low
+169,9.7,Stayed,🟢 Low
+61,5.8,Stayed,🟢 Low
+92,5.7,Stayed,🟢 Low
+208,5.6,Stayed,🟢 Low
+201,5.3,Stayed,🟢 Low
+167,4.2,Stayed,🟢 Low
+222,4.1,Stayed,🟢 Low
+131,3.9,Stayed,🟢 Low
+189,3.9,Stayed,🟢 Low
+270,3.8,Stayed,🟢 Low
+124,3.8,Stayed,🟢 Low
+218,3.6,Stayed,🟢 Low
+177,3.5,Stayed,🟢 Low
+302,3.1,Stayed,🟢 Low
+70,3.1,Stayed,🟢 Low
+289,2.9,Stayed,🟢 Low
+33,2.7,Stayed,🟢 Low
+251,2.6,Dropped Out,🟢 Low
+267,2.4,Stayed,🟢 Low
+37,2.4,Dropped Out,🟢 Low
+278,2.4,Stayed,🟢 Low
+313,2.3,Stayed,🟢 Low
+199,2.2,Stayed,🟢 Low
+254,2.1,Stayed,🟢 Low
+175,2.0,Stayed,🟢 Low
+125,2.0,Stayed,🟢 Low
+100,1.9,Stayed,🟢 Low
+86,1.7,Stayed,🟢 Low
+73,1.7,Dropped Out,🟢 Low
+40,1.6,Stayed,🟢 Low
+259,1.5,Stayed,🟢 Low
+127,1.4,Stayed,🟢 Low
+65,1.4,Stayed,🟢 Low
+245,1.4,Stayed,🟢 Low
+206,1.3,Stayed,🟢 Low
+11,1.2,Stayed,🟢 Low
+321,1.2,Stayed,🟢 Low
+67,1.1,Stayed,🟢 Low
+287,1.1,Stayed,🟢 Low
+24,1.1,Stayed,🟢 Low
+248,1.1,Stayed,🟢 Low
+26,1.0,Stayed,🟢 Low
+87,1.0,Stayed,🟢 Low
+225,1.0,Stayed,🟢 Low
+215,1.0,Stayed,🟢 Low
+126,1.0,Stayed,🟢 Low
+194,0.9,Stayed,🟢 Low
+281,0.9,Stayed,🟢 Low
+122,0.9,Stayed,🟢 Low
+212,0.8,Stayed,🟢 Low
+142,0.8,Stayed,🟢 Low
+134,0.8,Stayed,🟢 Low
+328,0.8,Stayed,🟢 Low
+121,0.7,Stayed,🟢 Low
+232,0.6,Stayed,🟢 Low
+63,0.6,Stayed,🟢 Low
+118,0.6,Stayed,🟢 Low
+41,0.6,Stayed,🟢 Low
+114,0.5,Stayed,🟢 Low
+104,0.5,Stayed,🟢 Low
+22,0.5,Stayed,🟢 Low
+304,0.5,Stayed,🟢 Low
+258,0.5,Stayed,🟢 Low
+80,0.5,Stayed,🟢 Low
+240,0.4,Stayed,🟢 Low
+64,0.4,Stayed,🟢 Low
+15,0.4,Stayed,🟢 Low
+113,0.4,Stayed,🟢 Low
+76,0.4,Stayed,🟢 Low
+13,0.4,Stayed,🟢 Low
+213,0.4,Stayed,🟢 Low
+45,0.3,Stayed,🟢 Low
+204,0.3,Stayed,🟢 Low
+220,0.3,Stayed,🟢 Low
+156,0.3,Stayed,🟢 Low
+153,0.3,Stayed,🟢 Low
+312,0.3,Stayed,🟢 Low
+293,0.3,Stayed,🟢 Low
+95,0.3,Stayed,🟢 Low
+145,0.3,Stayed,🟢 Low
+12,0.2,Stayed,🟢 Low
+137,0.2,Stayed,🟢 Low
+32,0.2,Stayed,🟢 Low
+36,0.2,Stayed,🟢 Low
+149,0.2,Stayed,🟢 Low
+165,0.2,Stayed,🟢 Low
+50,0.2,Stayed,🟢 Low
+244,0.2,Stayed,🟢 Low
+57,0.2,Stayed,🟢 Low
+209,0.2,Stayed,🟢 Low
+20,0.2,Stayed,🟢 Low
+296,0.1,Stayed,🟢 Low
+1,0.1,Stayed,🟢 Low
+138,0.1,Stayed,🟢 Low
+143,0.1,Stayed,🟢 Low
+147,0.1,Stayed,🟢 Low
+81,0.1,Stayed,🟢 Low
+71,0.1,Stayed,🟢 Low
+96,0.1,Stayed,🟢 Low
+129,0.1,Stayed,🟢 Low
+274,0.1,Stayed,🟢 Low
+288,0.1,Stayed,🟢 Low
+272,0.1,Stayed,🟢 Low
+324,0.1,Stayed,🟢 Low
+168,0.1,Stayed,🟢 Low
+166,0.1,Stayed,🟢 Low
+148,0.1,Stayed,🟢 Low
+94,0.1,Stayed,🟢 Low
+93,0.1,Stayed,🟢 Low
+211,0.1,Stayed,🟢 Low
+238,0.1,Stayed,🟢 Low
+60,0.1,Stayed,🟢 Low
+235,0.1,Stayed,🟢 Low
+252,0.1,Stayed,🟢 Low
+0,0.1,Stayed,🟢 Low
+300,0.1,Stayed,🟢 Low
+298,0.1,Stayed,🟢 Low
+295,0.1,Stayed,🟢 Low
+18,0.1,Stayed,🟢 Low
+271,0.1,Stayed,🟢 Low
+239,0.1,Stayed,🟢 Low
+255,0.1,Stayed,🟢 Low
+62,0.1,Stayed,🟢 Low
+223,0.1,Stayed,🟢 Low
+202,0.1,Stayed,🟢 Low
+203,0.1,Stayed,🟢 Low
+264,0.1,Stayed,🟢 Low
+283,0.1,Stayed,🟢 Low
+269,0.1,Stayed,🟢 Low
+117,0.0,Stayed,🟢 Low
+172,0.0,Stayed,🟢 Low
+66,0.0,Stayed,🟢 Low
+91,0.0,Stayed,🟢 Low
+154,0.0,Stayed,🟢 Low
+5,0.0,Stayed,🟢 Low
+185,0.0,Stayed,🟢 Low
+200,0.0,Stayed,🟢 Low
+51,0.0,Stayed,🟢 Low
+236,0.0,Stayed,🟢 Low
+229,0.0,Stayed,🟢 Low
+221,0.0,Stayed,🟢 Low
+263,0.0,Stayed,🟢 Low
+268,0.0,Stayed,🟢 Low
+291,0.0,Stayed,🟢 Low
+301,0.0,Stayed,🟢 Low
+322,0.0,Stayed,🟢 Low
