@@ -10,9 +10,6 @@ import plotly.graph_objects as go
 import warnings
 warnings.filterwarnings('ignore')
 
-# ─────────────────────────────────────────
-# PAGE CONFIG
-# ─────────────────────────────────────────
 st.set_page_config(
     page_title  = "Clinical Trial Dropout Predictor",
     page_icon   = "🏥",
@@ -20,9 +17,6 @@ st.set_page_config(
     initial_sidebar_state = "expanded"
 )
 
-# ─────────────────────────────────────────
-# LOAD MODEL & DATA
-# ─────────────────────────────────────────
 @st.cache_resource
 def load_model():
     return joblib.load('models/xgboost_final_model.pkl')
@@ -37,9 +31,7 @@ def load_data():
 model               = load_model()
 X_test, y_test, risk_df = load_data()
 
-# ─────────────────────────────────────────
-# SIDEBAR NAVIGATION
-# ─────────────────────────────────────────
+
 st.sidebar.image(
     "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/"
     "Agilisium_Logo.png/320px-Agilisium_Logo.png",
@@ -60,15 +52,12 @@ st.sidebar.markdown("**Project:** Clinical Trial Dropout Prediction")
 st.sidebar.markdown("**Model:** XGBoost Classifier")
 st.sidebar.markdown("**Intern:** Agilisium Remote Internship")
 
-# ─────────────────────────────────────────
-# PAGE 1 — OVERVIEW
-# ─────────────────────────────────────────
+
 if page == "📊 Overview":
     st.title("📊 Clinical Trial Dropout — Overview")
     st.markdown("Real-time monitoring dashboard for patient retention in clinical trials.")
     st.markdown("---")
 
-    # KPI Cards
     total    = len(risk_df)
     high     = len(risk_df[risk_df['risk_level'] == '🔴 High'])
     medium   = len(risk_df[risk_df['risk_level'] == '🟡 Medium'])
@@ -142,15 +131,11 @@ if page == "📊 Overview":
     st.plotly_chart(fig3, use_container_width=True)
 
 
-# ─────────────────────────────────────────
-# PAGE 2 — PATIENT RISK TABLE
-# ─────────────────────────────────────────
 elif page == "🔴 Patient Risk Table":
     st.title("🔴 Patient Risk Table")
     st.markdown("Filter and monitor individual patient dropout risk scores.")
     st.markdown("---")
 
-    # Filters
     col1, col2 = st.columns(2)
     with col1:
         risk_filter = st.multiselect(
@@ -166,7 +151,6 @@ elif page == "🔴 Patient Risk Table":
             value     = (0, 100)
         )
 
-    # Apply filters
     filtered = risk_df[
         (risk_df['risk_level'].isin(risk_filter)) &
         (risk_df['dropout_risk_%'] >= min_risk) &
@@ -175,7 +159,6 @@ elif page == "🔴 Patient Risk Table":
 
     st.markdown(f"**Showing {len(filtered)} patients**")
 
-    # Color code the table
     def color_risk(val):
         if '🔴' in str(val):
             return 'background-color: #fadbd8'
@@ -190,7 +173,6 @@ elif page == "🔴 Patient Risk Table":
     )
     st.dataframe(styled, use_container_width=True, height=500)
 
-    # Download button
     csv = filtered.to_csv(index=False).encode('utf-8')
     st.download_button(
         label     = "⬇️ Download Filtered Table as CSV",
@@ -200,9 +182,6 @@ elif page == "🔴 Patient Risk Table":
     )
 
 
-# ─────────────────────────────────────────
-# PAGE 3 — MODEL INSIGHTS
-# ─────────────────────────────────────────
 elif page == "🧠 Model Insights":
     st.title("🧠 Model Insights")
     st.markdown("Understand what drives dropout predictions.")
@@ -262,9 +241,6 @@ elif page == "🧠 Model Insights":
         plt.clf()
 
 
-# ─────────────────────────────────────────
-# PAGE 4 — PREDICT NEW PATIENT
-# ─────────────────────────────────────────
 elif page == "🔮 Predict New Patient":
     st.title("🔮 Predict Dropout Risk for a New Patient")
     st.markdown("Enter patient details below to get their dropout risk score.")
@@ -308,19 +284,16 @@ elif page == "🔮 Predict New Patient":
 
     if st.button("🔮 Predict Dropout Risk", use_container_width=True):
 
-        # Encode categoricals the same way as training
         gender_enc     = 1 if gender == "Male" else 0
         employment_enc = {"Employed": 0, "Unemployed": 2, "Retired": 1}[employment_status]
         trial_enc      = {"Phase I": 0, "Phase II": 1, "Phase III": 2}[trial_phase]
         disease_enc    = {"Cardiology": 0, "Diabetes": 1, "Neurology": 2, "Oncology": 3}[disease_type]
         treatment_enc  = 0 if treatment_arm == "Drug" else 1
 
-        # Engineered features
         visit_compliance  = visits_completed / (visits_completed + visits_missed + 1)
         trial_burden      = adverse_events + (protocol_deviations * 2)
         high_risk_flag    = 1 if (site_distance > 75 and visits_missed > 3) else 0
 
-        # Build input row — must match training column order exactly
         input_data = pd.DataFrame([{
             'age'                  : age,
             'gender'               : gender_enc,
@@ -342,14 +315,11 @@ elif page == "🔮 Predict New Patient":
             'high_risk_flag'       : high_risk_flag,
         }])
 
-        # Align columns with training
         input_data = input_data[X_test.columns]
 
-        # Predict
         risk_prob = model.predict_proba(input_data)[0][1]
         risk_pct  = risk_prob * 100
 
-        # Display result
         col_res1, col_res2, col_res3 = st.columns(3)
 
         with col_res2:
@@ -363,7 +333,6 @@ elif page == "🔮 Predict New Patient":
                 st.success(f"🟢 LOW RISK\n\n**Dropout Probability: {risk_pct:.1f}%**")
                 st.markdown("✅ Patient appears engaged. Continue standard monitoring.")
 
-        # SHAP explanation for this patient
         st.markdown("---")
         st.subheader("🔍 Why This Prediction? (SHAP Explanation)")
         explainer   = shap.TreeExplainer(model)
